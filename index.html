@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Cotolay | Cocina Tradicional Gallega en Santiago de Compostela</title>
+    <meta name="description" content="Restaurante Cotolay, cocina tradicional gallega en el corazón de Santiago de Compostela. A 150 metros de la Catedral. Carnes, pescados, mariscos y los mejores arroces de Galicia.">
+    <meta name="keywords" content="restaurante gallego, Santiago de Compostela, cocina gallega, mariscos, pulpo, arroces, Cotolay, Camino de Santiago">
+    <meta property="og:title" content="Restaurante Cotolay | Cocina Tradicional Gallega">
+    <meta property="og:description" content="Cocina gallega auténtica a 150 metros de la Catedral de Santiago. Reserva ahora.">
+    <meta property="og:type" content="restaurant">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Architects+Daughter&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="logo-white.png" alt="Restaurante Cotolay 1992" class="nav-logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Nuestra Historia</a></li>
+                <li><a href="#carta">Carta</a></li>
+                <li><a href="#opiniones">Opiniones</a></li>
+                <li><a href="#contacto">Horario y Contacto</a></li>
+                <li><a href="#reservas" class="nav-cta">Reservar Mesa</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="inicio">
+        <div class="fog-container">
+            <div class="fog-layer fog-layer-1"></div>
+            <div class="fog-layer fog-layer-2"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">A 150 metros de la Catedral</div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">Cocina Gallega</span>
+                <span class="hero-title-accent">de Tradición</span>
+            </h1>
+            <p class="hero-subtitle">Productos frescos del mar y la tierra de Galicia, elaborados con el alma de una leyenda compostelana desde la Rúa de San Clemente.</p>
+            <div class="hero-actions">
+                <a href="#reservas" class="btn btn-primary">Reservar Mesa</a>
+                <a href="#carta" class="btn btn-outline">Ver Carta</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Descubre</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Intro / Bienvenida -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <span class="section-label">Bienvenidos</span>
+                    <h2>Donde la tradición gallega<br>se sirve con <em>alma</em></h2>
+                    <p>En el corazón del casco histórico de Santiago de Compostela, Restaurante Cotolay es un rincón de auténtica cocina gallega. Aquí, cada plato cuenta la historia de nuestros productores, de nuestro mar Atlántico y de la tierra verde que nos rodea.</p>
+                    <p>Nuestra filosofía es sencilla: producto fresco, de temporada y de la mejor calidad, cocinado con respeto a las recetas que llevan generaciones pasando de mano en mano.</p>
+                </div>
+                <div class="intro-features">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="24" cy="24" r="20"/><path d="M24 14v10l7 7"/></svg>
+                        </div>
+                        <h3>Producto Fresco</h3>
+                        <p>Selección diaria de mercado: pescados, mariscos y carnes de origen gallego.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 36c0-8 6-12 16-12s16 4 16 12"/><circle cx="24" cy="16" r="8"/></svg>
+                        </div>
+                        <h3>Trato Familiar</h3>
+                        <p>Un equipo que te recibe como en casa. Fátima y el equipo cuidan cada detalle.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 4l4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1z"/></svg>
+                        </div>
+                        <h3>Junto a la Catedral</h3>
+                        <p>A 150 metros de la Catedral, con terraza y vistas al corazón de Compostela.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia / Leyenda -->
+    <section class="historia" id="historia">
+        <div class="historia-bg"></div>
+        <div class="container">
+            <div class="historia-content">
+                <span class="section-label section-label--light">La Leyenda</span>
+                <h2 style="position: relative;">
+                    El nombre que <br>nos <em>inspira</em>
+                    <img src="carbonero.png" class="historia-icon" alt="Carbonero">
+                </h2>
+                <div class="historia-text">
+                    <p>Cotolay fue un humilde carbonero que vivía en las laderas del Monte Pedroso, en Santiago de Compostela, allá por el siglo XIII. Cuenta la leyenda que acogió en su hogar a San Francisco de Asís durante su peregrinación a Compostela, forjando una amistad que cambiaría la historia de la ciudad.</p>
+                    <p>Antes de partir hacia Italia, San Francisco encomendó a Cotolay la construcción de un convento en el Val de Deus. Cuando el carbonero protestó por su falta de recursos, el santo le aseguró que encontraría lo necesario en una fuente cercana a su casa. Y así fue: un tesoro apareció allí, financiando la construcción del Convento de San Francisco de Asís, que aún hoy se erige como uno de los edificios más emblemáticos de Compostela.</p>
+                    <p>La tumba de Cotolay descansa en el convento, con una inscripción del siglo XVI que perpetúa su memoria. Su historia nos recuerda que la hospitalidad más humilde puede dar lugar a las hazañas más extraordinarias.</p>
+                </div>
+            </div>
+            <div class="historia-timeline">
+                <div class="timeline-item">
+                    <span class="timeline-year">s. XIII</span>
+                    <span class="timeline-text">Cotolay acoge a San Francisco de Asís</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">1214</span>
+                    <span class="timeline-text">Fundación del Convento de San Francisco</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">Hoy</span>
+                    <span class="timeline-text">Nuestro restaurante honra su legado de hospitalidad</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades Destacadas -->
+    <section class="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nuestra Cocina</span>
+                <h2>Sabores de <em>Galicia</em></h2>
+                <p>Producto fresco del Atlántico y la tierra gallega, elaborado con recetas que honran la tradición.</p>
+            </div>
+            <div class="especialidades-grid">
+                <div class="especialidad-card">
+                    <div class="especialidad-img"><img src="pulpo.png" alt="Pulpo a Feira"></div>
+                    <div class="especialidad-content">
+                        <h3>Pulpo á Feira</h3>
+                        <p>Nuestro pulpo, tierno y sabroso, servido sobre cachelos con pimentón de la Vera y aceite de oliva virgen. Un clásico gallego que preparamos con mimo.</p>
+                    </div>
+                </div>
+                <div class="especialidad-card">
+                    <div class="especialidad-img"><img src="paella.png" alt="Arroces gallegos"></div>
+                    <div class="especialidad-content">
+                        <h3>Arroces Gallegos</h3>
+                        <p>Nuestra especialidad estrella. Arroces caldosos y secos con marisco fresco del día, bogavante, almejas y gambas de las rías gallegas.</p>
+                    </div>
+                </div>
+                <div class="especialidad-card">
+                    <div class="especialidad-img"><img src="codillo.png" alt="Codillo asado"></div>
+                    <div class="especialidad-content">
+                        <h3>Codillo Asado</h3>
+                        <p>Codillo de cerdo asado lentamente hasta conseguir una carne jugosa que se deshace, con la piel crujiente y dorada. Un plato contundente de nuestra tierra.</p>
+                    </div>
+                </div>
+                <div class="especialidad-card">
+                    <div class="especialidad-img"><img src="vieiras.png" alt="Mariscos de las rias"></div>
+                    <div class="especialidad-content">
+                        <h3>Mariscos de las Rías</h3>
+                        <p>Zamburiñas a la plancha, almejas a la marinera, berberechos, gambas y navajas. Lo mejor del Atlántico gallego en tu mesa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carta / Menú -->
+    <section class="carta" id="carta">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="cartaLabel">Nuestra Carta</span>
+                <h2 class="carta-title" data-i18n="cartaTitle">El menú de <img src="logo-transparent.png" alt="Cotolay" class="title-logo"></h2>
+            </div>
+            <div class="carta-lang">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="gl">GL</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+            </div>
+            <div class="carta-tabs">
+                <button class="carta-tab active" data-tab="raciones" data-i18n="tabRaciones">Raciones y Sopas</button>
+                <button class="carta-tab" data-tab="arroces" data-i18n="tabArroces">Arroces</button>
+                <button class="carta-tab" data-tab="ensaladas" data-i18n="tabEnsaladas">Ensaladas</button>
+                <button class="carta-tab" data-tab="pescados" data-i18n="tabPescados">Pescados</button>
+                <button class="carta-tab" data-tab="carnes" data-i18n="tabCarnes">Carnes</button>
+                <button class="carta-tab" data-tab="postres" data-i18n="tabPostres">Postres</button>
+                <button class="carta-tab" data-tab="vinos" data-i18n="tabVinos">Carta de Vinos</button>
+                <button class="carta-tab" data-tab="menu" data-i18n="tabMenu">Menú del Día</button>
+                <button class="carta-tab" data-tab="grupos" data-i18n="tabGrupos">Menús para Grupos</button>
+            </div>
+            <div class="carta-panels">
+                <!-- RACIONES Y SOPAS -->
+                <div class="carta-panel active" id="panel-raciones">
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r1">Jamón ibérico (100gr.)</h4><span class="carta-price">18,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r2">Chorizo ibérico</h4><span class="carta-price">10,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r3">Tabla de quesos</h4><span class="carta-price">18,00 &euro;</span></div><span class="carta-allergens">Lácteos, Huevos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r4">Chipirones fritos</h4><span class="carta-price">12,50 &euro;</span></div><span class="carta-allergens">Gluten, Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r5">Chipirones a la plancha</h4><span class="carta-price">12,50 &euro;</span></div><span class="carta-allergens">Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r6">Pulpo á feira</h4><span class="carta-price">17,50 &euro;</span></div><span class="carta-allergens">Moluscos</span><div class="maridaje-sugerido">🍷 Sugerencia: Albariño de la casa</div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r7">Gambas al ajillo</h4><span class="carta-price">14,00 &euro;</span></div><span class="carta-allergens">Crustáceos, Sulfitos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r8">Langostinos a la plancha</h4><span class="carta-price">12,00 &euro;</span></div><span class="carta-allergens">Crustáceos, Sulfitos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r9">Mejillones al vapor</h4><span class="carta-price">8,00 &euro;</span></div><span class="carta-allergens">Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r10">Almejas a la marinera</h4><span class="carta-price">17,00 &euro;</span></div><span class="carta-allergens">Moluscos, Sulfitos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r11">Navajas a la plancha</h4><span class="carta-price">16,00 &euro;</span></div><span class="carta-allergens">Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r12">Zamburiñas a la plancha</h4><span class="carta-price">15,00 &euro;</span></div><span class="carta-allergens">Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r13">Vieira al horno (unidad)</h4><span class="carta-price">6,50 &euro;</span></div><span class="carta-allergens">Gluten, Sulfitos, Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r14">Pimientos de Padrón (en temporada)</h4><span class="carta-price">7,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r15">Croquetas caseras</h4><span class="carta-price">11,00 &euro;</span></div><span class="carta-allergens">Gluten, Huevos, Lácteos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r16">Croquetas caseras de calamares en su tinta</h4><span class="carta-price">12,00 &euro;</span></div><span class="carta-allergens">Gluten, Pescado, Huevos, Lácteos, Crustáceos, Moluscos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r17">Raxo al ajillo</h4><span class="carta-price">11,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r18">Patatas bravas</h4><span class="carta-price">6,00 &euro;</span></div><span class="carta-allergens">Huevos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r19">Pan (ración)</h4><span class="carta-price">1,20 &euro;</span></div><span class="carta-allergens">Gluten</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="r20">Caldo gallego</h4><span class="carta-price">5,50 &euro;</span></div></div>
+                    </div>
+                </div>
+                <!-- ARROCES -->
+                <div class="carta-panel" id="panel-arroces">
+                    <div class="carta-columns">
+                        <div class="carta-item carta-item--highlight"><div class="carta-item-header"><h4 data-i18n="a1">Arroz con bogavante</h4><span class="carta-price">60,00 &euro;</span></div><p data-i18n="a1note">Plato para dos personas</p><span class="carta-allergens">Moluscos, Crustáceos, Sulfitos, Pescado</span><div class="maridaje-sugerido">🍷 Sugerencia: Godello Fraga do Corvo</div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="a2">Arroz con langostinos y zamburiñas</h4><span class="carta-price">40,00 &euro;</span></div><p data-i18n="a2note">Plato para dos personas</p><span class="carta-allergens">Moluscos, Crustáceos, Sulfitos, Pescado</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="a3">Arroz con mariscos</h4><span class="carta-price">40,00 &euro;</span></div><p data-i18n="a3note">Plato para dos personas</p><span class="carta-allergens">Moluscos, Crustáceos, Sulfitos, Pescado</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="a4">Arroz negro con almejas y chipirones</h4><span class="carta-price">40,00 &euro;</span></div><p data-i18n="a4note">Plato para dos personas</p><span class="carta-allergens">Moluscos, Crustáceos, Sulfitos, Pescado</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="a5">Arroz con vegetales</h4><span class="carta-price">20,00 &euro;</span></div></div>
+                    </div>
+                </div>
+                <!-- ENSALADAS -->
+                <div class="carta-panel" id="panel-ensaladas">
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="e1">Ensalada tomate, lechuga y cebolla</h4><span class="carta-price">8,00 &euro;</span></div><span class="carta-allergens">Sulfitos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="e2">Ensalada &ldquo;Cotolay&rdquo;</h4><span class="carta-price">13,00 &euro;</span></div><span class="carta-allergens">Huevos, Pescado, Sulfitos</span></div>
+                    </div>
+                </div>
+                <!-- PESCADOS -->
+                <div class="carta-panel" id="panel-pescados">
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="p1">Bacalao a la gallega</h4><span class="carta-price">23,00 &euro;</span></div><span class="carta-allergens">Pescado</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="p2">Bacalao a la plancha</h4><span class="carta-price">23,00 &euro;</span></div><span class="carta-allergens">Pescado</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="p3">Pescado del día</h4><span class="carta-price" data-i18n="priceConsultar">Consultar</span></div><span class="carta-allergens">Pescado</span></div>
+                    </div>
+                </div>
+                <!-- CARNES -->
+                <div class="carta-panel" id="panel-carnes">
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c1">Chuletón (según peso)</h4><span class="carta-price">45,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c2">Entrecot de vaca</h4><span class="carta-price">18,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c3">Croca de vaca</h4><span class="carta-price">17,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c4">Pechuga de pollo a la plancha</h4><span class="carta-price">11,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c5">Cordero asado</h4><span class="carta-price">18,00 &euro;</span></div><span class="carta-allergens">Sulfitos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c6">Chuletillas de cordero</h4><span class="carta-price">18,50 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c7">Chuleta de cerdo</h4><span class="carta-price">10,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="c8">Codillo asado</h4><span class="carta-price">17,00 &euro;</span></div><span class="carta-allergens">Sulfitos</span><div class="maridaje-sugerido">🍷 Sugerencia: Mencía Ponte da Boga</div></div>
+                    </div>
+                    <p class="carta-note" data-i18n="carnesNote">Guarnición: patatas fritas o verduras</p>
+                </div>
+                <!-- POSTRES -->
+                <div class="carta-panel" id="panel-postres">
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d1">Tarta de chocolate</h4><span class="carta-price">5,00 &euro;</span></div><span class="carta-allergens">Huevos, Lácteos, Soja, Gluten</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Tiramisú</h4><span class="carta-price">5,00 &euro;</span></div><span class="carta-allergens">Gluten, Lácteos, Soja, Huevos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d3">Flan casero</h4><span class="carta-price">5,00 &euro;</span></div><span class="carta-allergens">Huevos, Lácteos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d4">Tarta de Santiago</h4><span class="carta-price">5,00 &euro;</span></div><span class="carta-allergens">Frutos secos, Huevos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d5">Tarta de queso</h4><span class="carta-price">5,00 &euro;</span></div><span class="carta-allergens">Lácteos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d6">Arroz con leche</h4><span class="carta-price">5,00 &euro;</span></div><span class="carta-allergens">Lácteos</span></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d7">Fruta fresca</h4><span class="carta-price">1,50 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="d8">Yogur</h4><span class="carta-price">1,80 &euro;</span></div><span class="carta-allergens">Lácteos</span></div>
+                    </div>
+                </div>
+                <!-- CARTA DE VINOS -->
+                <div class="carta-panel" id="panel-vinos">
+                    <h3 class="carta-wine-cat">Mencía</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4>Fraga do Corvo <small>(Monterrei)</small></h4><span class="carta-price">20,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Bancales Olvidados <small>(Ribeira Sacra)</small></h4><span class="carta-price">20,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Ponte da Boga <small>(Ribeira Sacra)</small></h4><span class="carta-price">17,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Señorío de Beade</h4><span class="carta-price">16,00 &euro;</span></div></div>
+                    </div>
+                    <h3 class="carta-wine-cat">D.O. Rioja</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4>Marqués de Murrieta <small>(Reserva)</small></h4><span class="carta-price">28,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Sierra Cantabria <small>(Crianza)</small></h4><span class="carta-price">18,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>El Marido de mi Amiga <small>(Semidulce)</small></h4><span class="carta-price">18,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Yoana <small>(Rosado)</small></h4><span class="carta-price">18,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Real Agrado <small>(Crianza)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Vallobera <small>(Crianza)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                    </div>
+                    <h3 class="carta-wine-cat">D.O. Ribera del Duero</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4>Cillar de Silos <small>(12 meses en roble)</small></h4><span class="carta-price">29,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Cillar <small>(Tempranillo)</small></h4><span class="carta-price">17,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Tamiz <small>(Cosecha)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                    </div>
+                    <h3 class="carta-wine-cat">D.O. Rías Baixas</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4>Sensum Laxaz <small>(Espumoso Brut)</small></h4><span class="carta-price">22,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Quinta de Couselo <small>(O Rosal)</small></h4><span class="carta-price">20,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Laxaz <small>(Rías Baixas)</small></h4><span class="carta-price">17,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Caralludo <small>(Rías Baixas)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="vAlbCasa">Albariño de la casa</h4><span class="carta-price">13,00 &euro;</span></div></div>
+                    </div>
+                    <h3 class="carta-wine-cat">D.O. Ribeiro</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4>San Clodio</h4><span class="carta-price">17,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Cuatro Parroquia <small>(Treixadura)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Beade <small>(Treixadura)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="vRibCasa">Ribeiro de la casa</h4><span class="carta-price">13,00 &euro;</span></div></div>
+                    </div>
+                    <h3 class="carta-wine-cat">Godello</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4>Fraga do Corvo <small>(Monterrei)</small></h4><span class="carta-price">20,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Ladairo <small>(Monterrei)</small></h4><span class="carta-price">16,00 &euro;</span></div></div>
+                        <div class="carta-item"><div class="carta-item-header"><h4>Viña Abad <small>(Valdeorras)</small></h4><span class="carta-price">15,00 &euro;</span></div></div>
+                    </div>
+                    <h3 class="carta-wine-cat" data-i18n="sangriaCat">Sangría</h3>
+                    <div class="carta-columns">
+                        <div class="carta-item"><div class="carta-item-header"><h4 data-i18n="vSangria">Elaboración de la casa (1 litro)</h4><span class="carta-price">15,00 &euro;</span></div></div>
+                    </div>
+                    <p class="carta-note" data-i18n="vinosNote">Todos los vinos contienen sulfitos</p>
+                </div>
+                <!-- MENÚ DEL DÍA -->
+                <div class="carta-panel" id="panel-menu">
+                    <div class="menu-dia">
+                        <div class="menu-dia-header">
+                            <h3 data-i18n="menuTitle">Menú del Día</h3>
+                            <span class="menu-dia-price">17,50 &euro;</span>
+                        </div>
+                        <div class="menu-dia-section">
+                            <h4 data-i18n="menuPrimer">Primer Plato</h4>
+                            <ul>
+                                <li data-i18n="menu1">Caldo gallego</li>
+                                <li data-i18n="menu2">Ensalada mixta</li>
+                                <li data-i18n="menu3">Croquetas caseras</li>
+                            </ul>
+                        </div>
+                        <div class="menu-dia-section">
+                            <h4 data-i18n="menuSegundo">Segundo Plato</h4>
+                            <ul>
+                                <li data-i18n="menu4">Chuleta de cerdo a la plancha</li>
+                                <li data-i18n="menu5">Filete de pollo a la plancha</li>
+                                <li data-i18n="menu6">Pescado del día</li>
+                            </ul>
+                        </div>
+                        <p class="menu-dia-includes" data-i18n="menuIncludes">Incluye: bebida (1 copa de vino de la casa o agua), postre y pan</p>
+                        <p class="menu-dia-schedule" data-i18n="menuSchedule">De lunes a viernes, 13:00 a 15:00 (excepto festivos)</p>
+                    </div>
+                </div>
+                <!-- MENÚS PARA GRUPOS -->
+                <div class="carta-panel" id="panel-grupos">
+                    <div class="menu-grupos-grid">
+                        <div class="menu-dia menu-grupo">
+                            <div class="menu-dia-header">
+                                <h3 data-i18n="grupo1Title">Menú Grupo</h3>
+                                <span class="menu-dia-price">35,00 &euro;</span>
+                            </div>
+                            <div class="menu-dia-section">
+                                <h4 data-i18n="grupoEntrantes">Entrantes</h4>
+                                <ul>
+                                    <li data-i18n="g1e1">Empanada casera</li>
+                                    <li data-i18n="g1e2">Croquetas</li>
+                                    <li data-i18n="g1e3">Langostinos</li>
+                                </ul>
+                            </div>
+                            <div class="menu-dia-section">
+                                <h4 data-i18n="grupoSegundos">Segundos Platos a Elegir</h4>
+                                <ul>
+                                    <li data-i18n="g1s1">Lubina a la plancha</li>
+                                    <li data-i18n="g1s2">Codillo asado</li>
+                                </ul>
+                            </div>
+                            <p class="menu-dia-includes" data-i18n="g1bebidas">Bebidas: Rioja crianza, ribeiro y agua</p>
+                            <p class="menu-dia-schedule" data-i18n="g1postre">Postre y café</p>
+                        </div>
+                        <div class="menu-dia menu-grupo">
+                            <div class="menu-dia-header">
+                                <h3 data-i18n="grupo2Title">Menú Grupo</h3>
+                                <span class="menu-dia-price">40,00 &euro;</span>
+                            </div>
+                            <div class="menu-dia-section">
+                                <h4 data-i18n="grupoEntrantes">Entrantes</h4>
+                                <ul>
+                                    <li data-i18n="g2e1">Empanada casera</li>
+                                    <li data-i18n="g2e2">1 Vieira por persona</li>
+                                    <li data-i18n="g2e3">Langostinos a la plancha</li>
+                                </ul>
+                            </div>
+                            <div class="menu-dia-section">
+                                <h4 data-i18n="grupoSegundos">Segundos Platos a Elegir</h4>
+                                <ul>
+                                    <li data-i18n="g2s1">Corvina a la plancha</li>
+                                    <li data-i18n="g2s2">Croca de vaca a la plancha</li>
+                                </ul>
+                            </div>
+                            <p class="menu-dia-includes" data-i18n="g2bebidas">Bebidas: Rioja crianza, ribeiro y agua</p>
+                            <p class="menu-dia-schedule" data-i18n="g2postre">Postre y café</p>
+                        </div>
+                        <div class="menu-dia menu-grupo">
+                            <div class="menu-dia-header">
+                                <h3 data-i18n="grupo3Title">Menú Grupo</h3>
+                                <span class="menu-dia-price">50,00 &euro;</span>
+                            </div>
+                            <div class="menu-dia-section">
+                                <h4 data-i18n="grupoEntrantes">Entrantes</h4>
+                                <ul>
+                                    <li data-i18n="g3e1">Tabla de quesos gallegos y embutidos ibéricos</li>
+                                    <li data-i18n="g3e2">Zamburiñas a la plancha</li>
+                                    <li data-i18n="g3e3">Almejas a la marinera</li>
+                                </ul>
+                            </div>
+                            <div class="menu-dia-section">
+                                <h4 data-i18n="grupoSegundos">Segundos Platos a Elegir</h4>
+                                <ul>
+                                    <li data-i18n="g3s1">Bacalao a la plancha con patatas panadera</li>
+                                    <li data-i18n="g3s2">Entrecot a la pimienta</li>
+                                </ul>
+                            </div>
+                            <p class="menu-dia-includes" data-i18n="g3bebidas">Bebidas: Albariño, Mencía y agua</p>
+                            <p class="menu-dia-schedule" data-i18n="g3postre">Postre, café y licores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Opiniones -->
+    <section class="opiniones" id="opiniones">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Opiniones</span>
+                <h2>Lo que dicen<br>nuestros <em>clientes</em></h2>
+                <div class="opiniones-rating">
+                    <div class="stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor" opacity="0.5"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                    </div>
+                    <span>4.4 / 5 &mdash; Más de 945 opiniones</span>
+                </div>
+            </div>
+            <div class="opiniones-grid">
+                <div class="opinion-card">
+                    <div class="opinion-stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                    </div>
+                    <p class="opinion-text">&ldquo;Comida muy representativa de lo mejor que Galicia tiene para ofrecer. El personal es muy amable y te hacen sentir como en familia. Sin duda, volveremos.&rdquo;</p>
+                    <div class="opinion-author">
+                        <span class="author-name">María G.</span>
+                        <span class="author-source">Tripadvisor</span>
+                    </div>
+                </div>
+                <div class="opinion-card">
+                    <div class="opinion-stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                    </div>
+                    <p class="opinion-text">&ldquo;Mejor precio de la zona para mariscada. Porciones generosas que pueden alimentar a 3-4 personas. La atención de Fátima es excepcional.&rdquo;</p>
+                    <div class="opinion-author">
+                        <span class="author-name">Carlos R.</span>
+                        <span class="author-source">Google</span>
+                    </div>
+                </div>
+                <div class="opinion-card">
+                    <div class="opinion-stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.62l5.34-.78z"/></svg>
+                    </div>
+                    <p class="opinion-text">&ldquo;Un restaurante sencillo, sin demasiados lujos, pero con una cocina exquisita. Los arroces son espectaculares y el pulpo, el mejor que hemos probado.&rdquo;</p>
+                    <div class="opinion-author">
+                        <span class="author-name">Ana P.</span>
+                        <span class="author-source">Tripadvisor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Camino de Santiago -->
+    <section class="camino">
+        <div class="container">
+            <div class="camino-content">
+                <div class="camino-icon">
+                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M32 8c-2 0-4 2-4 4s2 4 4 4 4-2 4-4-2-4-4-4z"/>
+                        <path d="M28 20h8l2 16-6 4-6-4z"/>
+                        <path d="M24 36l-4 20h4l4-12 4 12h4l-4-20"/>
+                        <path d="M20 28l-8 4M44 28l8 4"/>
+                        <path d="M16 16l4-4M48 16l-4-4"/>
+                    </svg>
+                </div>
+                <h2>Para los peregrinos del <em>Camino</em></h2>
+                <p>Cotolay se encuentra en la confluencia de las principales rutas jacobeas: Camino Francés, Portugués, Inglés, Primitivo y del Norte. Después de tu peregrinación, te recibimos con la misma hospitalidad con la que el carbonero Cotolay acogió a San Francisco de Asís hace más de 800 años.</p>
+                <a href="#reservas" class="btn btn-primary">Reserva tu mesa, peregrino</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Reservas -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-grid">
+                <div class="contacto-info" id="reservas">
+                    <span class="section-label">Reservas</span>
+                    <h2>Reserva tu <em>mesa</em></h2>
+                    <p>Llámanos o escríbenos por WhatsApp para reservar. Te recomendamos reservar con antelación, especialmente fines de semana y festivos.</p>
+
+                    <div class="contacto-methods">
+                        <a href="tel:+34981573014" class="contacto-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <span>(+34) 981 573 014</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/34615285044" target="_blank" rel="noopener" class="contacto-method">
+                            <div class="method-icon method-icon--whatsapp">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.637l4.72-1.391A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.94 9.94 0 01-5.39-1.583l-.376-.231-2.805.827.756-2.916-.253-.391A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                            </div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>615 285 044</span>
+                            </div>
+                        </a>
+                        <a href="mailto:reservas@restaurantecotolay.com" class="contacto-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>reservas@restaurantecotolay.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contacto-details">
+                    <div class="detail-block">
+                        <h3>Dirección</h3>
+                        <p>Rúa de San Clemente, 8 Bajo<br>15705 Santiago de Compostela<br>A Coruña, Galicia</p>
+                    </div>
+                    <div class="detail-block">
+                        <h3>Horario</h3>
+                        <table class="horario-table">
+                            <tr><td>Lunes – Martes</td><td>Cerrado</td></tr>
+                            <tr><td>Miércoles – Domingo</td><td>12:00 – 23:30</td></tr>
+                        </table>
+                    </div>
+                    <div class="detail-block">
+                        <h3>Servicios</h3>
+                        <ul class="servicios-list">
+                            <li>Terraza con vistas a la Catedral</li>
+                            <li>Salón interior climatizado</li>
+                            <li>Menús para grupos y eventos</li>
+                            <li>Comida para llevar</li>
+                            <li>Apto para familias y mascotas</li>
+                            <li>Vinos, copas y licores gallegos</li>
+                        </ul>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Rúa+de+San+Clemente,+8,+15705+Santiago+de+Compostela" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top: 24px; gap: 8px; width: 100%;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Cómo llegar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo-white.png" alt="Restaurante Cotolay 1992" class="footer-logo-img">
+                    <p>Cocina tradicional gallega en el corazón de Santiago de Compostela. Honrando la hospitalidad de una leyenda compostelana.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/restaurantecotolay/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/restaurantecotolay" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#historia">Nuestra Historia</a>
+                    <a href="#carta">Carta</a>
+                    <a href="#opiniones">Opiniones</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>Rúa de San Clemente, 8<br>15705 Santiago de Compostela</p>
+                    <p><a href="tel:+34981573014">(+34) 981 573 014</a></p>
+                    <p><a href="mailto:reservas@restaurantecotolay.com">reservas@restaurantecotolay.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Restaurante Cotolay. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/34615285044" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.637l4.72-1.391A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.94 9.94 0 01-5.39-1.583l-.376-.231-2.805.827.756-2.916-.253-.391A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
