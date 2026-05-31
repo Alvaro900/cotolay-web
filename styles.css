@@ -1942,6 +1942,13 @@ body.apple-motion .photo-strip.apple-section {
     }
 
     /* Carta */
+    .carta {
+        padding: 60px 12px;
+    }
+    .carta .container {
+        padding: 40px 16px;
+        border-width: 14px;
+    }
     .carta-columns {
         grid-template-columns: 1fr;
     }
