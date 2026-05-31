@@ -488,7 +488,6 @@ h2 em {
 }
 .intro::after,
 .especialidades::after,
-.carta::after,
 .opiniones::after,
 .contacto::after {
     content: '';
@@ -811,29 +810,22 @@ h2 em {
    ============================================ */
 .carta {
     padding: 100px 20px;
-    background: radial-gradient(circle at center, var(--color-bg-section) 0%, #e6e0d4 100%);
-    position: relative;
-    z-index: 1;
-}
-.carta .container {
     background: 
         linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0px, rgba(255, 255, 255, 0.02) 200px, rgba(15, 15, 15, 0.1) 400px, rgba(80, 65, 40, 0.15) 800px, rgba(168, 142, 69, 0.15) 100%),
         url('pizarra-bg.png') center/cover;
-    padding: 60px 40px;
-    box-shadow: 
-        0 50px 100px -20px rgba(0,0,0,0.6),
-        0 20px 40px -10px rgba(0,0,0,0.4),
-        0 5px 15px rgba(0,0,0,0.5);
-    border: 30px solid transparent;
-    border-image: url('wood-frame.png') 80 round;
     position: relative;
-    transform: translateZ(0);
+    z-index: 1;
 }
+
+.carta .container {
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+
 .carta .container::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    box-shadow: inset 0 0 50px rgba(0,0,0,0.9);
     pointer-events: none;
 }
 .carta, .carta * {
@@ -1943,14 +1935,10 @@ body.apple-motion .photo-strip.apple-section {
 
     /* Carta */
     .carta {
-        padding: 40px 0;
+        padding: 60px 0;
     }
     .carta .container {
-        padding: 40px 24px;
-        border: 0;
-        border-image: none;
-        box-shadow: none;
-        border-radius: 0;
+        padding: 0 24px;
     }
     .carta-columns {
         grid-template-columns: 1fr;
