@@ -41,6 +41,17 @@ document.addEventListener('DOMContentLoaded', () => {
             panels.forEach(p => p.classList.remove('active'));
             tab.classList.add('active');
             document.getElementById('panel-' + target).classList.add('active');
+            
+            // Auto-scroll to content on mobile
+            if (window.innerWidth <= 768) {
+                const navbar = document.getElementById('navbar');
+                const offset = (navbar ? navbar.offsetHeight : 60) + 10;
+                const panelsContainer = document.querySelector('.carta-panels');
+                if (panelsContainer) {
+                    const top = panelsContainer.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+            }
         });
     });
 
