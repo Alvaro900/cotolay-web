@@ -1933,6 +1933,18 @@ body.apple-motion .photo-strip.apple-section {
         gap: 48px;
     }
 
+    /* Historia / Leyenda */
+    .historia-icon {
+        position: relative;
+        display: block;
+        width: 140px;
+        margin: 24px auto 10px;
+        right: auto;
+        top: auto;
+        transform: none;
+        opacity: 0.85;
+    }
+
     /* Especialidades */
     .especialidad-card {
         grid-template-columns: 1fr;
