@@ -834,6 +834,10 @@ h2 em {
     z-index: 1;
 }
 
+.carta-bg-sticky {
+    display: none;
+}
+
 .carta .container {
     background: transparent;
     padding: 0;
@@ -1966,13 +1970,20 @@ body.apple-motion .photo-strip.apple-section {
     /* Carta */
     .carta {
         padding: 60px 0;
-        background-color: #202020;
-        background-image: 
-            linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 0px, rgba(255, 255, 255, 0.01) 200px, rgba(15, 15, 15, 0.5) 400px, rgba(80, 65, 40, 0.5) 800px, rgba(168, 142, 69, 0.3) 100%),
-            url('wet-stone.png');
-        background-position: center top, center;
-        background-size: 100% 100%, 300px 300px;
-        background-repeat: no-repeat, repeat;
+        background: transparent;
+    }
+    .carta-bg-sticky {
+        display: block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: -100vh;
+        background: 
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0px, rgba(255, 255, 255, 0.02) 200px, rgba(15, 15, 15, 0.1) 400px, rgba(80, 65, 40, 0.15) 800px, rgba(168, 142, 69, 0.15) 100%),
+            url('pizarra-bg.png') center/cover;
+        z-index: 0;
     }
     .carta .container {
         padding: 0 24px;
