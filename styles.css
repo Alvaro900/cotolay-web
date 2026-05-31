@@ -1936,6 +1936,9 @@ body.apple-motion .photo-strip.apple-section {
     /* Carta */
     .carta {
         padding: 60px 0;
+        background: 
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0px, rgba(255, 255, 255, 0.02) 200px, rgba(15, 15, 15, 0.1) 400px, rgba(80, 65, 40, 0.15) 800px, rgba(168, 142, 69, 0.15) 100%),
+            url('pizarra-bg.png') center top / 600px repeat;
     }
     .carta .container {
         padding: 0 24px;
