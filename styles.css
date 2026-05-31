@@ -1041,16 +1041,17 @@ h2 em {
 }
 
 .carta-wine-cat {
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    font-weight: 500;
-    color: var(--color-accent);
-    margin: 32px 0 16px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid rgba(139, 111, 71, 0.2);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f4d03f;
+    margin: 40px 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px dashed rgba(244, 208, 63, 0.4);
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .carta-wine-cat:first-child {
@@ -1088,7 +1089,7 @@ h2 em {
     font-family: 'Architects Daughter', cursive;
     font-size: 2.2rem;
     font-weight: 700;
-    color: var(--color-accent);
+    color: #f4d03f !important;
 }
 
 .menu-dia-section {
