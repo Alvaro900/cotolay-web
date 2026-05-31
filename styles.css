@@ -1947,7 +1947,8 @@ body.apple-motion .photo-strip.apple-section {
     }
     .carta .container {
         padding: 40px 24px;
-        border: none;
+        border: 0;
+        border-image: none;
         box-shadow: none;
         border-radius: 0;
     }
