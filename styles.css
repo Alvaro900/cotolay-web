@@ -1943,11 +1943,13 @@ body.apple-motion .photo-strip.apple-section {
 
     /* Carta */
     .carta {
-        padding: 60px 12px;
+        padding: 40px 0;
     }
     .carta .container {
-        padding: 40px 16px;
-        border-width: 14px;
+        padding: 40px 24px;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
     }
     .carta-columns {
         grid-template-columns: 1fr;
