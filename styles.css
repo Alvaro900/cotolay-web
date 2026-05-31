@@ -755,6 +755,8 @@ h2 em {
     padding: 22px;
     transition: transform var(--transition);
     border: none;
+    transform-style: preserve-3d;
+    will-change: transform;
 }
 
 .especialidad-card:hover {
