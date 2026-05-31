@@ -834,10 +834,6 @@ h2 em {
     z-index: 1;
 }
 
-.carta-bg-sticky {
-    display: none;
-}
-
 .carta .container {
     background: transparent;
     padding: 0;
@@ -1969,27 +1965,49 @@ body.apple-motion .photo-strip.apple-section {
 
     /* Carta */
     .carta {
-        padding: 60px 0;
-        background: transparent;
-    }
-    .carta-bg-sticky {
-        display: block;
-        position: sticky;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        margin-bottom: -100vh;
+        padding: 40px 0;
         background: 
             linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 0px, rgba(255, 255, 255, 0.02) 200px, rgba(15, 15, 15, 0.1) 400px, rgba(80, 65, 40, 0.15) 800px, rgba(168, 142, 69, 0.15) 100%),
-            url('pizarra-bg.png') center/cover;
-        z-index: 0;
+            url('pizarra-bg.png') center top / 600px repeat;
     }
     .carta .container {
-        padding: 0 24px;
+        padding: 0 16px;
     }
     .carta-columns {
         grid-template-columns: 1fr;
+    }
+
+    .carta-item-header h4 {
+        font-size: 1.3rem;
+    }
+
+    .carta-price {
+        font-size: 1.2rem;
+    }
+
+    .carta-wine-cat {
+        font-size: 1.5rem;
+    }
+
+    /* Menus dia/grupos */
+    .menu-dia {
+        padding: 24px 16px;
+    }
+    
+    .menu-dia-header h3 {
+        font-size: 1.8rem;
+    }
+    
+    .menu-dia-price {
+        font-size: 1.6rem;
+    }
+
+    .menu-dia-section h4 {
+        font-size: 1.4rem;
+    }
+
+    .menu-dia-section li {
+        font-size: 1.2rem;
     }
 
     .carta-tabs {
